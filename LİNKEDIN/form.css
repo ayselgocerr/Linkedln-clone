@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+   position: relative;
+
+  
+    
+    
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+.mycontainer{
+    background: white;
+    color: #fff;
+    box-sizing: border-box;
+   }
+.logo img{
+    height: 80px;
+    width: 140px;
+    background-color: #f3f3f4 ;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+   .linkedin{
+    background-color: #f9fdff;
+    margin-left: 560px;
+    width: 420px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 5px 5px 60px rgb(118, 118, 117);
+border-radius: 3%;
+   }
+   
+ .mycontainer h5{
+  color: rgb(69, 67, 67);
+ margin-top: -30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  margin-left: 460px;
+ 
+
+  font-weight: 360;
+  font-size: 28px;
+}
+
+
+
+ 
+   input{
+   width: 100%;
+   height: 35px;
+   font-size: 11px;
+
+   font-weight: lighter;
+
+  
+  
+   
+   border: 1px solid #454242;
+   border-radius: 3px;
+   box-sizing: border-box;
+   cursor: pointer;
+   
+   
+   
+   
+ }
+ input:hover{
+  background-color: rgb(246, 242, 242);
+  border: 2px solid black;
+  box-shadow: rgb(116, 116, 116);
+ }
+ .custom-input{
+   text-align: right;
+   padding: 0 10px;
+  
+   
+ }
+
+  
+    
+  
+ .form label{
+  font-weight: 400;
+  font-size: 13px;
+  color: #252424;
+  margin-left: 0;
+
+ 
+ }
+ .linkedin p{
+  font-size: 12px;
+  font-weight: 300;
+  color: #595757;
+  cursor: pointer;
+ }
+ .linkedin span{
+  color: rgb(88, 88, 222);
+  cursor: pointer;
+ }
+ .btn1 {
+  color:white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 18px;
+ 
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(26, 112, 178);
+    border-radius: 30px;
+
+
+ }
+ .btn1:hover{
+  background-color: rgb(55, 55, 159);
+ }
+ .x{
+ 
+  line-height: 0.1px;
+
+  position: relative;
+  display: flex;
+  font-weight: 100;
+  margin-bottom: 20px;
+  }
+.x p{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+
+  }
+  hr{
+ margin: 10px;
+  width: 45%;
+border: 0.1px solid rgb(202, 188, 188);
+
+ }
+  
+ 
+  .btn2{
+    color:rgb(65, 61, 61);
+    font-weight: 600;
+    font-size: 12px;
+   padding: 10px 18px;
+  
+    cursor: pointer;
+   width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: 0.1px solid rgb(196, 192, 192);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  
+  }
+  .btn2:hover{
+    border: 2px solid black;
+    background-color: #fef8f8;
+  }
+  h3{
+    color: #212020;
+    font-weight: 200;
+    font-size: 15px;
+   
+  
+    cursor: pointer;
+   
+  
+  
+  }
+  h3 a{
+   
+    color: rgb(55, 55, 220);
+  }
+  h3 a:hover{
+    text-decoration:underline ;
+  }
+  .mycontainer h2{
+    color: rgb(69, 67, 67);
+   
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 560px;
+   
+  
+    font-weight: 100;
+    font-size: 16px;
+  }
+  
+   
+ .mycontainer h2 a{
+    color: rgb(55, 55, 220);
+  }
+ 
+ .mycontainer h2 a:hover{
+  text-decoration:underline ;
+}
+ /*--------------------son kısım----------*/
+ .end_footer {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 200px;
+   height: 200px;
+ 
+ 
+   padding-top: 10px;
+  
+ 
+}
+.end_footer .logo3{
+ margin-left: 130px; 
+}
+   .end_footer .logo3 img{
+      height: 16px;
+      width: 60px;
+      color: #141413;
+     
+      margin-top: 0;
+    }
+    .end_footer div p{
+      font-size: 11px;
+      margin-top: -1px;
+      font-weight: 300;
+      color: #141413;
+    }
+
+   .end_footer div a{
+      color: dimgray;
+      font-size: 12px;
+      font-weight: 390;
+      display: flex;
+
+    }
+    .end_footer div a:hover{
+      text-decoration: underline;
+      color: blue;
+    }
+    .right1 svg{
+      margin: 2px 4px;
+    }
+    .right1:hover,
+    .right1 svg:hover{
+      color: #141413;
+      font-weight: 500;
+    }
+
+@media (max-width: 1200px){
+  .linkedin{
+    margin: auto;
+ 
+  }
+  .mycontainer h5{
+    margin-left: 300px;
+  }
+  .mycontainer h2{
+    margin-left:300px ;
+    }
+}
+@media (max-width: 991px){
+  .mycontainer h2{
+    margin-left:100px ;
+    }
+    
+}
+
+
+
+@media (max-width: 767px){
+.mycontainer h5{
+margin-left: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+.linkedin{
+  background-color: white;
+  box-shadow: none;
+}
+.mycontainer h2{
+  margin:30px ;
+  }
+
+.end_footer {
+  display: flex;
+flex-wrap: wrap;
+margin-right: 50px;}
+
+}
+
